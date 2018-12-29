@@ -124,6 +124,11 @@ section{
 		font-size:10px;
 		margin:  5px 0px 0px 0px;
 	}
+
+	article div img{
+		height: 50px;
+		width: 50px;
+	}
 }
 
 

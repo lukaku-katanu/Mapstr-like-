@@ -1,0 +1,52 @@
+.map{
+	overflow: hidden;
+}
+.map__image{
+	width: 50%;
+	float: left;
+}
+
+
+.map__image path{
+	fill: #a4ced2;
+	stroke: #FFF;
+	stroke-width: 1px;
+	transition: fill 0.3s;
+}
+
+.map__image .is-active path{
+	fill: blue;
+	
+	}
+
+
+
+.map__list{
+	float: right;
+	width: 50px;
+}
+
+.ma__list a{
+	color: inherit;
+	text-decoration: none;
+	transition: color 0.3s;
+
+}
+
+.ma__list a.is-active{
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;;
+}
+
+
+@media screen and (max-width: 780px){
+	map__image{
+	height: 50px;
+	}
+	.map__list a{
+		width: 10;
+	}
+}
+	
+	
